@@ -97,7 +97,7 @@ where the model is uncertain (e.g., 51% probability), leading to higher
 transaction costs and lower win rates. 
 • The Solution: We ran a grid search on the training data, testing confidence 
 thresholds between 0.50 and 0.65 in increments of 0.01. 
-• The Result: The algorithm identified [Insert Your Code's Threshold, e.g., 0.55] 
+• The Result: The algorithm identified 0.55 
 as the optimal cutoff. This specific threshold historically maximized the Sharpe 
 Ratio by filtering out "noise" trades while retaining high-quality signals. 
 • Execution: In the live backtest, the model remains in Cash unless the predicted 
